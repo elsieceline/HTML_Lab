@@ -1,0 +1,46 @@
+
+header h2 {
+background-color: red;
+text-align: center;
+padding: 10px;
+}
+nav{
+position:sticky;
+top:0;
+}
+.menu{
+background-color: grey;
+}
+.menu li{
+display:inline-block;
+padding: 10px;
+}
+
+.menu li a{
+font-size: 10px;
+color: white;
+}
+.menu li:hover{
+background-color: black;
+}
+.dd1, .dd2{
+position:absolute;
+width: auto;
+display: none;
+padding: 0;
+}
+.menu li :nth-child(2):hover .dd1, .menu li :nth-child(3):hover .dd2{
+    display:block;
+}
+.dd1 li,
+.dd2 li{
+    display:block;
+}
+.dd1 li:hover,
+.dd2 li:hover{
+    background-color: gainsboro;
+}
+.dd1 li a, .dd2 li a{
+    font-size:16px;
+    color:steelblue;
+}
